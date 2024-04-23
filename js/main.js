@@ -8,4 +8,6 @@ const myFavColor = prompt('Inserisci il tuo colore preferito');
 
 currentText = `${myName}${myLastName}${myFavColor}21`;
 
+console.log(currentText);
+
 currentElement.innerHTML = currentText;
